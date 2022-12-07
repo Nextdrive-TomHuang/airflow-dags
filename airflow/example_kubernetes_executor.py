@@ -24,7 +24,7 @@ if k8s:
     with DAG(
         dag_id="tom_example_kubernetes_executor",
         schedule=None,
-        start_date=datetime(2021, 1, 1),
+        start_date=datetime(2022, 1, 1),
         catchup=False,
         tags=["example"],
     ) as dag:
